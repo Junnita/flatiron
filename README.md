@@ -95,7 +95,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any questions or issues, please contact [your-email@example.com](mailto:your-email@example.com).
 
-
 ## Author 
-     **JUNNE WANJA**
+1.   If you want to view my transaction app click [here]( https://flatiron-theta.vercel.app/)
+-  **JUNNE WANJA**
 
