@@ -13,7 +13,7 @@ const App = () => {
 		// Fetch transactions from the backend server
 		const fetchTransactions = async () => {
 			try {
-				const response = await fetch('http://localhost:3000/transactions');
+				const response = await fetch('https://phase-2-backend.vercel.app/transactions');
 				const data = await response.json();
 				setTransactions(data);
 				setFilteredTransactions(data); // Initialize filtered transactions
@@ -32,7 +32,7 @@ const App = () => {
 
 		try {
 			// Post the new transaction to the server
-			const response = await fetch('http://localhost:3000/transactions', {
+			const response = await fetch('https://phase-2-backend.vercel.app/transactions', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json',
